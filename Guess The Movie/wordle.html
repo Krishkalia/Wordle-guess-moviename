@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+
+    </style>
+</head>
+<body onload="autoselect()">
+    <div class="container-fluid bg-warning">
+        <!-- Header starts -->
+        <div class="row mb-5">
+            <div class="col-4">
+
+            </div>
+            <div class="col-4 text-center ">
+                <h1 class="display-1">Wordle Game</h1>
+                <p class="fs-5">Guess the movie name</p>
+            </div>
+            <div class="col-4 text-center fw-bold fs-4">
+                <p  id="livesDisplay">Lives Remaining: 3</p>
+            </div>
+        </div>
+        <!-- header ends -->
+         <!-- main part starts -->
+          <div class="container">
+            <!-- images section starts -->
+            <div class="row bg-danger text-center mb-5" >
+                <div class="col"><img class="img-thumbnail" src="bomb.png" alt="" id="img1"></div>
+                <div class="col"><img class="img-thumbnail" src="bomb.png" alt="" id="img2"></div>
+                <div class="col"><img class="img-thumbnail" src="bomb.png" alt="" id="img3"></div>
+                <div class="col"><img class="img-thumbnail" src="bomb.png" alt="" id="img4"></div>
+                <div class="col"><img class="img-thumbnail" src="bomb.png" alt="" id="img5"></div>
+                <div class="col"><img class="img-thumbnail" src="bomb.png" alt="" id="img6"></div>
+            </div>
+            <!-- images section ends -->
+             <!-- input section starts -->
+             <div class="row bg-info text-center" >
+                <div class="col"><input maxlength="1" class="w-25 rounded-5 text-center fw-bold fs-2" type="text" id="inp1" onblur="inp1chk()" oninput="inp1err();moveNext(this)"></div>
+                <div class="col"><input maxlength="1" class="w-25 rounded-5 text-center fw-bold fs-2" type="text" id="inp2"  onblur="inp2chk()" oninput="inp2err();moveNext(this)"></div>
+                <div class="col"><input maxlength="1" class="w-25 rounded-5 text-center fw-bold fs-2" type="text" id="inp3" onblur="inp3chk()" oninput="inp3err();moveNext(this)"></div>
+                <div class="col"><input maxlength="1" class="w-25 rounded-5 text-center fw-bold fs-2" type="text" id="inp4" onblur="inp4chk()" oninput="inp4err();moveNext(this)"></div>
+                <div class="col"><input maxlength="1" class="w-25 rounded-5 text-center fw-bold fs-2" type="text" id="inp5" onblur="inp5chk()" oninput="inp5err();moveNext(this)"></div>
+                <div class="col"><input maxlength="1" class="w-25 rounded-5 text-center fw-bold fs-2" type="text" id="inp6" onblur="inp6chk()" oninput="inp6err();checkafterallinputs(); "></div>
+            </div>
+            <!-- input section ends -->
+          </div>
+          <!-- main section ends -->
+           <!-- footer section starts -->
+           <div class="container-fluid text-bg-secondary mt-5 ">
+                <div class="row" >
+                    <div class="col-4"></div>
+                    <div class="col">
+                        <h2 class="text-center mb-3">Rules to play the game</h2>
+                        <ul>
+                            <li>You have 3 lives to guess the movie name</li>
+                            <li>If the lives Get Over You Lost</li>
+                            <li>At Last Life You will get a Hint on the Top</li>
+                            <li>Cheating is not allowed by seeing code play truthfully</li>
+                            <li>Have fun Guessing!!!</li>
+                        </ul>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+           </div>
+           <div class="mt-5">
+                    <p style="text-align: center; font-size: 20px; color: gray;">
+    © 2025 Krish Kalia. All rights reserved.
+</p>
+
+                </div>
+           <!-- footer section ends -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
