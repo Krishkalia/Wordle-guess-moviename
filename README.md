@@ -1,56 +1,57 @@
-<h1>🎮 Wordle Movie Guess Game<h1></h1>
-<p></p>A fun web-based Wordle-style game where players guess a movie name letter by letter. Each incorrect guess blows a bomb!
-Built using HTML, CSS, Bootstrap 5, and JavaScript.<p></p>
+<h1 align="center">🎮 Wordle Movie Guess Game</h1>
 
-🚀 Features
-🔤 Guess the movie name character by character
+<p align="center">
+    A fun Wordle-style movie guessing game using HTML, CSS, Bootstrap, and JavaScript.<br>
+    Guess the movie name letter by letter. Wrong guesses blow up bombs!
+</p>
 
-💣 Bomb images blow up on wrong letters
+<hr>
 
-❤️ 3 lives to guess correctly
+<h2>🚀 Features</h2>
+<ul>
+    <li>🔤 Guess the movie name character by character</li>
+    <li>💣 Bomb images blow up on wrong letters</li>
+    <li>❤️ 3 lives to guess correctly</li>
+    <li>🧠 Hint appears when you’re on your last life</li>
+    <li>🔄 Automatic game reset on win or loss</li>
+    <li>➡️ Auto-focus on next input for smooth gameplay</li>
+    <li>🔒 Inputs are disabled after typing</li>
+</ul>
 
-🧠 Hint appears when you’re on your last life
+<hr>
 
-🔄 Automatic game reset on win or loss
+<h2>🎥 Gameplay Rules</h2>
+<ul>
+    <li>You have 3 lives to guess the movie name.</li>
+    <li>Enter one character in each box.</li>
+    <li>If the letter is wrong, a bomb will blow.</li>
+    <li>Lose a life when any bomb blows.</li>
+    <li>Get a hint on your last life.</li>
+    <li>Win the game if no bombs blow in one full word attempt.</li>
+    <li>Have fun!</li>
+</ul>
 
-➡️ Auto-focus on next input for smooth gameplay
+<hr>
 
-🔒 Inputs are disabled after typing
+<h2>🛠️ Built With</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Bootstrap 5</li>
+    <li>Vanilla JavaScript</li>
+</ul>
 
-🎥 Gameplay Rules
-You have 3 lives to guess the movie name.
+<hr>
 
-Enter one character in each box.
+<h2>📁 How to Run</h2>
+<ol>
+    <li>Download or clone this repository.</li>
+    <li>Open <code>index.html</code> in your web browser.</li>
+    <li>Start guessing the movie name!</li>
+</ol>
 
-If the letter is wrong, a bomb will blow.
+<hr>
 
-Lose a life when any bomb blows.
-
-Get a hint on your last life.
-
-Win the game if no bombs blow in one full word attempt.
-
-Have fun!
-
-🛠️ Built With
-HTML
-
-CSS
-
-Bootstrap 5
-
-JavaScript (Vanilla JS)
-
-📁 How to Run
-Download or clone this repository.
-
-Open index.html in your web browser.
-
-Start guessing the movie name!
-
-📸 Screenshot
-(Optional: Add your game screenshot here by uploading a PNG/JPG and linking it)
-
-🧑‍💻 Author
-Krish Kalia
-© 2025 Krish Kalia. All rights reserved.
+<h2>🧑‍💻 Author</h2>
+<p><strong>Krish Kalia</strong></p>
+<p>© 2025 Krish Kalia. All rights reserved.</p>
