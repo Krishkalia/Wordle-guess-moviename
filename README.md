@@ -1,6 +1,6 @@
-🎮 Wordle Movie Guess Game
-A fun web-based Wordle-style game where players guess a movie name letter by letter. Each incorrect guess blows a bomb!
-Built using HTML, CSS, Bootstrap 5, and JavaScript.
+<h1>🎮 Wordle Movie Guess Game<h1></h1>
+<p></p>A fun web-based Wordle-style game where players guess a movie name letter by letter. Each incorrect guess blows a bomb!
+Built using HTML, CSS, Bootstrap 5, and JavaScript.<p></p>
 
 🚀 Features
 🔤 Guess the movie name character by character
